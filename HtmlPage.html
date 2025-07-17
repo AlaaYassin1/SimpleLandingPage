@@ -1,0 +1,394 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+       *{
+         box-sizing:border-box;
+         margin:0;
+         padding:0;
+       }
+
+       section{
+           font-family:Calibri;
+       }
+
+        #div1 {
+            background-image: url('images/hero-bg (1).jpg');
+            background-repeat:no-repeat;
+            background-attachment:scroll;
+            background-size: cover;
+            width: 100%;
+            height: 700px;
+           /* display:flex;*/
+           /* justify-content:center;
+            align-items:center;*/
+            position: relative;
+         /*   text-align:center;*/
+            /*width:1349px;
+            height:740px;*/
+        }
+
+        .hp {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 1em;
+            padding-bottom: 5px;
+            font-family: 'Arabic Typesetting';
+            font-size: 40px;
+           padding-top:16%;
+        }
+        .input{
+            margin-top:5px;
+            padding-top:0px;
+            text-align:center;
+          /*  justify-content:center;
+            align-items:center;*/
+        }
+        .border {
+            border: 0;
+            border-radius: 20px;
+            padding: 10px;
+            padding-right: 12px;
+            margin-right: 10px;
+            margin-bottom: 15px;
+            background-color: white;
+        }
+        #submit {
+            border:none;
+            background-color: orangered;
+            border-radius: 25px;
+            padding:8px;
+            color:white;
+            width:120px;
+        }
+        #div2{
+            margin:5% ;
+        }
+        #div2 ul li {
+               
+                list-style-image: url('images/WhatsApp Image 2021-12-25 at 10.16.01 AM.jpeg');
+                margin-bottom: 16px;
+                font-family: Arial,sans-serif;
+            }
+        #div2 ul{
+            margin-bottom:35px;
+        }
+       
+        #img{
+            float:left;
+            margin-right:60px;
+        }
+       #div2 p{
+           font-family:Calibri;
+           margin-bottom:30px;
+
+       }
+       #div3{
+           padding-bottom:60px; 
+           display:flex;
+           justify-content:space-around;
+           margin-top:6em;
+           background-color:papayawhip;
+           padding-top:4em;
+           width:100%;
+         
+
+       }
+        .wid {
+            padding-bottom:8px;
+         /*   width: 400px;*/
+         width:25%;
+            /*height: 450px;*/
+          /*  position: relative;*/
+           background-color:white;
+            font-family:Calibri
+        }
+            
+           
+        .wid h3 {
+            text-align: center;
+            color:saddlebrown;
+            padding-left:35px;
+            margin-bottom:8px;
+
+        }
+            .wid p {
+                padding-bottom:7px;
+                padding-right:3px;
+                margin-left: 15px;
+                color: gray;
+            }
+       /* .marg {
+            margin-left: 15px;
+            color: gray;
+        }
+        #marg2 {
+            margin-left: 15px;
+            color: gray;
+        }
+        #marg3{
+            margin-left:15px;
+           color:gray;
+        }*/
+     .pic{
+        padding-left:0;
+        padding:0;
+        width:100%;
+     /*    width:400px;*/
+       /*  height:276px;*/
+         display:flex;
+         margin-bottom:40px;
+    
+     }
+         
+        /*.circle {*/
+           /* position: absolute;*/
+            /*right: 160px;
+            top:255px;
+       
+            border-radius: 50%;
+            background-color:white;
+            margin-top: 0;
+            width: 50px;
+            height: 50px;
+        }*/
+        .small {
+           
+            margin-left: 160px;
+            margin-top: -60px;
+            border-radius: 50%;
+        }
+            .small img {
+                border-radius: 50%;
+                background-color: white;
+            }
+
+        footer{
+            color:white;
+           font-family:Calibri;
+            padding:20px;
+            text-align:center;
+            background-color:rgb(46 23 9);
+        }
+        .alaa {
+            color: orangered;
+        }
+     
+           #div1 h2 {
+                color:white;
+               /* text-align:start;*/
+                padding-left:6px;
+                font-size:50px;
+               /* font-style:italic;*/
+                
+                 }
+         
+           #div1 h2{
+               position:absolute;
+               top:0;
+               left:0;
+           }
+            #div1 ul {
+                position: absolute;
+                top: 0;
+                right: 0;
+               /* margin-right:0;*/
+                width: 25%;
+                height:5%;
+            }
+
+            #div1 ul li a{
+                      text-decoration:none;
+                       color:rgb(179 151 129);
+                           }
+            #div1 ul li a:focus ,a:hover{
+                         color:orangered;
+
+                                }
+            #div1 ul li {
+                    border-bottom: 1px solid black;
+                    width: 45%;
+                    padding: 9px 28px;
+                    margin-right: 0;
+                    margin-left:55%;
+                    /*  margin-left: 66.5em;*/
+                    background-color: rgb(58 59 61);
+                    list-style-type: none;
+                }
+             
+            
+           
+        @media screen and (max-width:480px) {
+            #div1 {
+                width:100%;
+                background-repeat: no-repeat;
+                background-attachment: scroll;
+                background-size: cover;
+                height: 700px;
+            }
+            #div1 ul {
+                position: absolute;
+                top: 0;
+                margin-right: 80px;
+                text-align: center;
+              
+                height: 13px;
+            }
+                #div1 ul li {
+                    
+                    width: 130px;
+                    /*padding: 5px 70px 5px 5px;*/
+                }
+                .hp {
+                    padding-top: 220px;
+                }
+            #div3 {
+                flex-wrap: wrap;
+            }
+           
+            .row {
+                flex-wrap: wrap;
+            }
+
+            .wid {
+                margin: 20px;
+                flex-wrap: wrap;
+                width: 100%;
+                padding-bottom: 35px;
+            }
+            .wid h3{text-align:center;
+                    padding-left:0px;
+            }
+            .wid p{padding-bottom:5px;}
+            #div2 p{padding-left:20px;}
+            #div2 ul {
+                padding-left: 30px;
+            }
+            #img {
+                margin-bottom: 5%;
+                width: 100%;
+                margin-left: 0;
+                padding-left: 0px;
+            }
+           .input {
+                display:flex;
+                justify-content:center;
+                align-items:center;
+            }
+            .small{align-items:center;
+                   justify-content:center;
+            }            
+
+        }
+            
+          
+    </style>
+</head>
+<body>
+    <section>
+        <div id="div1">
+            <!--<div id="list">-->
+            <h2>Siimple</h2>
+            <!--<ul>
+        <li><a href="#"> <span class="alaa">Home</span> </a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Why Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+    </ul>-->
+            <!--</div>-->
+            <div class="hp">
+                <h3>
+                    Welcome to Siimple
+                </h3>
+                <p>
+                    Please, fill out the for below to be notified for the latest updates!
+                </p>
+            </div>
+            <form>
+                <div class="input ">
+                    <input type="text" placeholder="  Your Name" class="border" />
+                    <input type="email" placeholder="  Your Email" class="border" />
+
+                </div>
+                <div class="input"><a href="#"><input type="submit" id="submit" value="Notify me!" /></a></div>
+            </form>
+            <ul>
+                <li><a href="#"> <span class="alaa">Home</span> </a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Why Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div id="div2">
+            <img src="images/why-us-1.jpg" id="img" />
+            <p>
+                Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <ul>
+                <li>
+                    Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </li>
+                <li>
+                    Duis aute irure dolor in reprehenderit in voluptate velit.
+                </li>
+                <li>
+                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.
+                </li>
+            </ul>
+            <p>
+                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+            </p>
+        </div>
+        <div id="div3">
+            <div class="wid">
+                <img src="images/why-us-1.jpg" class="pic" id="left" />
+                <div class="small">
+                <img src="images/book-reader-regular-46 - Copy.png" class="circle"/>
+                </div>
+
+                <h3>
+                    Our Mission
+                </h3>
+                <p id="marg2">
+                    Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+            </div>
+            <div class="wid">
+                <img src="images/why-us-2.jpg" class="pic" id="center" />
+                <div class="small">
+                <img src="images/calendar-edit-regular-46 - Copy.png" class="circle"/>
+                </div>
+                <h3>Our Plan</h3>
+                <p class="marg">
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                </p>
+            </div>
+            <div class="wid">
+                <img src="images/why-us-3.jpg" class="pic" id="Right" />
+                <div class="small">
+                    <img src="images/landscape-solid-46.png" class="circle" />
+                </div>
+                <h3>
+                    Our Vision
+                </h3>
+                <p id="marg3">
+                    Nemo enim ipsam voluptatem quia voluptas sit aut odit aut fugit, sed quia magni dolores eos qui ratione voluptatem sequi nesciunt Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.
+                </p>
+            </div>
+
+        </div>
+        <footer>
+            <p>  &copy;  Copyright <b>Siimple.</b> All Rights Reserved</p>
+            <p> Designed by   <span class="alaa">  Alaa Yassin </span></p>
+        </footer>
+    </section>
+
+
+</body>
+</html>
